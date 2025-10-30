@@ -1,9 +1,10 @@
-.body{
+.body {
     background-color: rgb(254, 229, 232);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,14 +13,14 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-#popcorn{
+#popcorn {
     width: 30%;
     height: auto;
     float: left;
     
 }
 
-.title{
+.title {
     font-family: cursive;
     font-size: large;
     padding-left: 5%;
@@ -27,7 +28,7 @@
     float: left;
 }
 
-#introduction{
+#introduction {
     margin: 40px auto;
     width: 80%;
     font-size: 1.2em;
@@ -35,11 +36,11 @@
     color: #444;
     background-color: #faf3f3;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border: 2px, solid, #f7babe;
+    border-radius: 20px;
 }
 
-.navbar{
+.navbar {
     position: sticky;
     top: 0;
     padding: 15px;
@@ -69,4 +70,49 @@
 .navbar li a:hover {
   background-color: #ffd6e0;
   color: #a8325c;
+}
+
+
+#contact_me {
+    width: 65%;
+    margin: 40px auto;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #444;
+    background-color: #faf3f3;
+    padding: 20px;
+    border: 2px, solid, #f7babe;
+    border-radius: 20px;
+}
+
+#contact_me input[type = text] {
+    width: 100%;
+    height: 25px;
+    border: 2px, solid, #f7babe;
+    border-radius: 5px;
+}
+
+#contact_me input[type = text]:focus, .contact_me textarea:focus {
+    outline: none;
+    border: 2px, solid, #f4747d;
+}
+
+#contact_me textarea {
+    width: 100%;
+    height: 50px;
+    border: 2px, solid, #f7babe;
+    border-radius: 5px;
+}
+
+#contact_me input[type = submit] {
+    width: 10%;
+    height: 25px;
+    background-color: #f7babe;
+    border: 2px, solid, #f7babe;
+    border-radius: 5px;
+}
+
+#contact_me input[type = submit]:hover {
+    background-color: #f9989e;
+    border: 2px, solid, #f4747d;
 }
