@@ -1,0 +1,14 @@
+Website: https://caofanny.github.io/Review-Website-DS4200/
+
+Decribe all the Styling & Customizations you have done in the Website.
+- There is a home page that has a navagation bar, header with 2 pictures, and a introduction of myself and what the website is.
+- Navagation bar: has 'Home,' 'Reviews,' and 'Contact Me.' They are a list and their display type is flex so they can be next to
+each other. I added a hover feature so when the user hovers over it, the css will make the background-color and the color of the 
+text change.
+- The heading has a container with an image, title, and another image. All three are in the container div and are next to each
+other using flex display and paddings to create spacing in between them.
+- The introduction of the webpage has a border and a different background color so it doesnt look plain. I also changed the 
+font and font size to make it look better.
+- The contact me section is made using form, textarea, input, and submit. The colors are also changed for appearance.
+- In the 'Reviews' page, I reused the nagavation bar and had 2 lists, 1 for movies and 1 for shows. Each list has its own
+border to separate the different categories. There are also a picture of the movie/show next to the div with the text and review.
